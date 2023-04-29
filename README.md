@@ -30,4 +30,5 @@ Facial recognition technology is becoming increasingly popular for applications 
 - pip install -r requirements.txt
 - Now for the final step. Run the app
 - streamlit run app.py
+- We can run the application by local port
 
