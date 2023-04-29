@@ -12,7 +12,7 @@ The face detection algorithm used in the application works by analyzing the pixe
 
 Facial recognition technology is becoming increasingly popular for applications such as security, marketing, and entertainment. This application provides a simple and convenient way for developers to experiment with facial detection algorithms and integrate them into their own projects.
 
-## Demo video : click on the below play image
+## Demo video : click on the below link for video
   [Face detection web  application demo]-https://youtu.be/BbTXnOlIb1Q
 
 ## Tech Stack:
