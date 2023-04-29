@@ -42,6 +42,8 @@ def main():
         # st.image(img, use_column_width=True)
         FRAME_WINDOW.image(img)
     else:
+        camera.release()
+        cv2.destroyAllWindows()
         st.write('Stopped')
 
 
