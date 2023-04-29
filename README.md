@@ -4,24 +4,22 @@ A project on Face Detection in a local image from PC and webcam live feed using 
 
 ## Description:
 A Face Detection Streamlit Application is a computer program that uses computer vision and machine learning techniques to detect human faces in real-time video streams.
-The application can be built using various libraries and frameworks, such as OpenCV,Streamlit and others.
+The application can be built using various libraries and frameworks, such as OpenCV,Streamlit,PIL and others.
 
-The user interacts with the application through a web-based graphical user interface created using the Streamlit library, which allows developers to build interactive data apps quickly. With this application, users can upload an image or record a video using their device's camera, and then the application will automatically detect and highlight the faces in the media.
+The user interacts with the application through a web-based graphical user interface created using the Streamlit library, which allows developers to build interactive data apps quickly. With this application, users can record a video using their device's camera, and then the application will automatically detect and highlight the faces in the media.
 
 The face detection algorithm used in the application works by analyzing the pixel values of the image or video frames to identify regions that are likely to contain a face. Once those regions are identified, the algorithm runs additional analysis to determine if a face is present in the region and where its boundaries lie.
 
 Facial recognition technology is becoming increasingly popular for applications such as security, marketing, and entertainment. This application provides a simple and convenient way for developers to experiment with facial detection algorithms and integrate them into their own projects.
-
-## Website link : [https://fd-live.herokuapp.com/](https://fd-live.herokuapp.com/)
 
 ## Demo video : click on the below play image
 [![Face detection web  application demo](https://media.istockphoto.com/vectors/play-button-icon-vector-id1194415465?b=1&k=6&m=1194415465&s=612x612&w=0&h=-BvLXebVz1yiyj3f87KVjUNpxFAgMCFt3b-nVEwYqoA=)](https://youtu.be/doxuogSjBqc "Face detection web  application demo")
 
 ## Tech Stack:
 - Language: Python
-- Libraries: OpenCV, PIL
+- Libraries: OpenCV,Streamlit, PIL
 - Back-End: Streamlit
-- IDE: Spyder, VS code
+- IDE:VS code
 
 ## How to run:
 - First create a virtual environment by using this command:
