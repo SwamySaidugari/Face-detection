@@ -1,14 +1,16 @@
 # Face-Detection-streamlit-application
 
-A project on Face Detection in a local image from PC and webcam live feed using Haarcascde frontal face classifier. Used OpenCV library for the over operations on the image data and streamlit for building web application. Deployed at Heroku server but have issues on webcam from the streamlit side(Streamlit doesn’t currently have any browser-based camera support).
-
+A project on Face Detection in a local image from PC and webcam live feed using Haarcascde frontal face classifier. Used OpenCV library for the over operations on the image data and streamlit for building web application.
 
 ## Description:
-The app consists of sidebar with dropdown of options such as Home, Upload and Display, Face Detection in pic and Face Detection cam. 
-+ Home : Diplays the admin picture and application objective
-+ Upload and Display: Asks to upload pic from the local files and display it.
-+ Face Detection in pic: Asks to upload pic from local files and display it with bounding box drawn around the face if detected.
-+ Face Detection cam: Asks to tick the checkbox run inorder to start the webcam for face detection on live feed. Uncheck the run to stop.
+A Face Detection Streamlit Application is a computer program that uses computer vision and machine learning techniques to detect human faces in real-time video streams.
+The application can be built using various libraries and frameworks, such as OpenCV,Streamlit and others.
+
+The user interacts with the application through a web-based graphical user interface created using the Streamlit library, which allows developers to build interactive data apps quickly. With this application, users can upload an image or record a video using their device's camera, and then the application will automatically detect and highlight the faces in the media.
+
+The face detection algorithm used in the application works by analyzing the pixel values of the image or video frames to identify regions that are likely to contain a face. Once those regions are identified, the algorithm runs additional analysis to determine if a face is present in the region and where its boundaries lie.
+
+Facial recognition technology is becoming increasingly popular for applications such as security, marketing, and entertainment. This application provides a simple and convenient way for developers to experiment with facial detection algorithms and integrate them into their own projects.
 
 ## Website link : [https://fd-live.herokuapp.com/](https://fd-live.herokuapp.com/)
 
